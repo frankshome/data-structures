@@ -19,7 +19,7 @@ public class Calc {
         ArrayStack<Integer> numsStack = new ArrayStack<>(Integer.class, 10);
         ArrayStack<Character> opersStack = new ArrayStack<>(Character.class, 10);
 
-        String expression = "30+2*6-2";
+        String expression = "3+2*6-2";
 
         String keepNum = "";
         int expLen = expression.length();
